@@ -1,0 +1,1 @@
+lorean.py --no_braker --short_reads /data/readsChr.fastq  --long_reads /data/longReadsChr8.fastq  --protein_evidence /data/subset.prot.fasta  --pasa_db testA -wd /data/test -t 7 /data/chr.fasta fusarium
