@@ -11,6 +11,11 @@ With this command, the long reads are oriented the adapter sequence for the 3pri
 the genome is masked for repetitive regions. LoReAn commnad uses the stranded version. The -t option can be changed based
 on the number of threads.
 
-   
+The following command can be used to test LoReAn with Nanopore data. The genome used as reference is the chromosome *Verticillium dahliae* strain 
+JR2 genome. You can compare the output of the command to the gff3 file that you can find in the output_Example folder
+
+```bash
+lorean.py -t 8 -sr readsChr.subset.fastq -lr longReadsChr8.fastq -pr subset.prot.fasta chr8.fasta -d -f -sp fusarium
+```
 
 
